@@ -545,15 +545,15 @@
   .mobile-discovery-header{display:none}
   .mobile-discovery-tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;padding:0}
   .mobile-discovery-tile{position:relative;isolation:isolate;display:flex;align-items:stretch;min-width:0;min-height:210px;padding:0;overflow:hidden;border:0;border-radius:16px;background:#b8a6d3;color:#fff;text-align:left;cursor:pointer;box-shadow:0 8px 20px #30234210}
-  .mobile-discovery-tile:after{content:"";position:absolute;z-index:-1;inset:0 0 0 38%;background:linear-gradient(90deg,#b8a6d3 0%,#b8a6d300 52%)}
+  .mobile-discovery-tile:after{content:"";position:absolute;z-index:-1;inset:0 0 0 45%;background:linear-gradient(90deg,#b8a6d3 0%,#b8a6d300 45%)}
   .communities-tile{background:#b2a2d0}
-  .communities-tile:after{background:linear-gradient(90deg,#b2a2d0 0%,#b2a2d000 52%)}
-  .tile-copy{width:52%;padding:24px;display:flex;flex-direction:column;align-items:flex-start;z-index:1}
-  .tile-copy strong{margin:0 0 12px;font:800 clamp(24px,2.5vw,31px)/1.05 'Manrope',sans-serif;letter-spacing:-.5px}
-  .tile-copy small{max-width:230px;font-size:12px;line-height:1.55;color:#292331}
+  .communities-tile:after{background:linear-gradient(90deg,#b2a2d0 0%,#b2a2d000 45%)}
+  .tile-copy{width:48%;padding:22px 18px 22px 22px;display:flex;flex-direction:column;align-items:flex-start;z-index:1}
+  .tile-copy strong{max-width:100%;margin:0 0 12px;font:800 clamp(22px,2vw,25px)/1.08 'Manrope',sans-serif;letter-spacing:-.4px;overflow-wrap:anywhere}
+  .tile-copy small{max-width:210px;font-size:12px;line-height:1.55;color:#292331;overflow-wrap:anywhere}
   .tile-copy b{display:flex;align-items:center;gap:13px;margin-top:auto;border-radius:18px;background:#3b3541;padding:9px 13px;font-size:9px;white-space:nowrap}
   .tile-copy b i{font-style:normal;font-size:16px;line-height:8px}
-  .tile-art{position:absolute;inset:0 0 0 43%;overflow:hidden;background:#a996c4}
+  .tile-art{position:absolute;inset:0 0 0 48%;overflow:hidden;background:#a996c4}
   .tile-art img{object-fit:cover!important}
   .tile-art-groups img{object-position:center 36%!important}
   .tile-art-communities img{object-position:center 43%!important}
@@ -682,3 +682,11 @@
   .tile-copy small{max-width:190px;font-size:clamp(10px,2.6vw,12px);line-height:1.45}
   .tile-copy b{align-self:center;margin-top:auto}
 }
+
+/* Keep profile galleries and discovery panels aligned at desktop widths. */
+.desktop-profile-gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;width:100%;max-width:1050px;margin:25px auto 0}
+.desktop-profile-post{position:relative;isolation:isolate;aspect-ratio:.82;overflow:hidden;border-radius:12px;background:#e6ddea}
+.desktop-profile-post img{z-index:0;object-fit:cover}
+.desktop-profile-post:after{content:"";position:absolute;inset:55% 0 0;background:linear-gradient(transparent,#16121b99);z-index:1}
+.desktop-post-views{position:absolute;z-index:2;left:10px;bottom:9px;color:#fff;font-size:11px;font-weight:700;text-shadow:0 1px 4px #17131b}
+@media(max-width:760px){.desktop-profile-gallery{display:none}}
