@@ -671,3 +671,14 @@
   .community-grid .community-copy strong{font-size:11px!important}
   .community-grid .community-join{min-height:31px!important;padding:0 10px!important;font-size:9px!important}
 }
+
+/* Center and contain the copy inside the two mobile discovery cards. */
+@media(max-width:760px){
+  .mobile-discovery-tile:after{inset:0 0 0 42%;background:linear-gradient(90deg,#b8a6d3 0%,#b8a6d300 56%)}
+  .communities-tile:after{background:linear-gradient(90deg,#b2a2d0 0%,#b2a2d000 56%)}
+  .tile-art{left:47%}
+  .tile-copy{width:53%;align-items:center;text-align:center;padding:17px 14px}
+  .tile-copy strong{width:100%;font-size:clamp(21px,5vw,25px);line-height:1.1;margin:0 0 10px}
+  .tile-copy small{max-width:190px;font-size:clamp(10px,2.6vw,12px);line-height:1.45}
+  .tile-copy b{align-self:center;margin-top:auto}
+}
