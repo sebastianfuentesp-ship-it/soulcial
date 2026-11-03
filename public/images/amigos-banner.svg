@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" fill="none">
+  <defs>
+    <linearGradient id="sweater" x1="78" y1="198" x2="244" y2="355" gradientUnits="userSpaceOnUse"><stop stop-color="#D9C1E6"/><stop offset="1" stop-color="#AA91C1"/></linearGradient>
+    <linearGradient id="hoodie" x1="237" y1="167" x2="461" y2="357" gradientUnits="userSpaceOnUse"><stop stop-color="#393541"/><stop offset="1" stop-color="#24222C"/></linearGradient>
+    <linearGradient id="skin" x1="177" y1="85" x2="223" y2="189" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF4F0"/><stop offset="1" stop-color="#EBC9C6"/></linearGradient>
+    <linearGradient id="skin2" x1="331" y1="59" x2="383" y2="176" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF4F0"/><stop offset="1" stop-color="#EBC9C6"/></linearGradient>
+  </defs>
+  <!-- soft confetti -->
+  <path d="M85 73c10-2 17-8 20-18m-1 23 12-5m275 3 8-20m6 26 15-6M57 151l12 9m396-26 13 1" stroke="#766489" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  <path d="M427 47c-10-14-29 1 0 22 29-21 10-36 0-22Z" stroke="#766489" stroke-width="3" stroke-linejoin="round"/>
+  <path d="m275 44 4 12 12 4-12 4-4 12-4-12-12-4 12-4 4-12Z" fill="#F8F1FA"/>
+  <path d="m108 120 3 8 8 3-8 3-3 8-3-8-8-3 8-3 3-8Z" fill="#F8F1FA"/>
+  <!-- back friend's arm -->
+  <path d="M276 211c51-34 94-44 137-16 19 12 34 29 49 46 9 10 6 24-5 29-7 3-14 2-20-3l-38-33c-22-14-43-12-66 1l-49 30-8-54Z" fill="url(#hoodie)"/>
+  <!-- friend's hoodie -->
+  <path d="M246 186c17-14 34-21 59-21h53c29 0 51 13 65 39l43 136H211l16-115c2-17 8-29 19-39Z" fill="url(#hoodie)"/>
+  <path d="m303 170 28 38 29-38 17 12-24 41 7 117h-60l7-117-23-41 19-12Z" fill="#F8F5F8"/>
+  <path d="m331 208-10 18m10-18 10 18m-10 30v64" stroke="#C5B6CA" stroke-width="3" stroke-linecap="round"/>
+  <!-- man's neck and face -->
+  <path d="M328 155v30c0 13 9 20 23 20s23-8 23-21v-34h-46Z" fill="url(#skin2)"/>
+  <path d="M311 107c0-34 18-54 46-54 31 0 48 20 48 54v24c0 30-20 50-48 50-28 0-46-22-46-50v-24Z" fill="url(#skin2)"/>
+  <path d="M307 111c-6-33 5-65 30-76 4-17 32-25 48-15 18-3 37 11 38 32 17 16 15 39 4 58l-12-16-7-26c-26 7-54 6-76-5l-17 49-8-1Z" fill="#292733"/>
+  <path d="M319 99c12-22 14-29 14-29 22 12 48 15 73 8l12 24-2 20c8-5 17-1 16 10-2 12-10 17-18 17-5 20-24 34-45 34-30 0-50-22-50-51V99Z" fill="url(#skin2)"/>
+  <path d="M340 118c5-5 11-5 16-1m24 1c5-5 11-5 16-1" stroke="#39323B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M350 142c8 9 19 9 27 0" stroke="#8B5E67" stroke-width="3" stroke-linecap="round"/>
+  <path d="M329 103c8-9 18-12 28-9m17 0c11-4 22-1 30 8" stroke="#292733" stroke-width="7" stroke-linecap="round"/>
+  <!-- woman's sweater -->
+  <path d="M58 355c13-78 38-123 82-137 20-7 48-7 67 2 35 17 52 65 62 135H58Z" fill="url(#sweater)"/>
+  <path d="M143 215c3 19 14 29 29 29 17 0 29-12 31-30l-60 1Z" fill="url(#skin)"/>
+  <path d="M144 224c6 14 17 21 29 21 13 0 25-7 31-21l13 7c-8 25-23 36-44 36s-36-12-43-35l14-8Z" fill="#F5EAF6"/>
+  <!-- woman's face and hair -->
+  <path d="M111 125c0-36 23-57 57-57 34 0 55 23 55 59v43c0 30-22 52-52 52-30 0-53-22-53-52v-45Z" fill="url(#skin)"/>
+  <path d="M101 152c-8-40 1-79 31-96 19-31 70-24 87 4 29 12 32 52 19 86l-12 38-8-52-6-27c-19 10-41 13-62 10-7 22-23 38-43 51l-6-14Z" fill="#292733"/>
+  <path d="M111 126c16-8 28-22 36-43 27 12 51 12 74 0l9 35-4 42c-4 32-24 52-53 52-27 0-47-20-51-49l-11-37Z" fill="url(#skin)"/>
+  <path d="M126 131c6-6 13-7 19-2m31-1c6-5 13-4 18 1" stroke="#39323B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M143 158c7 9 18 11 27 2" stroke="#9A6875" stroke-width="3" stroke-linecap="round"/>
+  <path d="M120 116c9-8 19-11 30-9m21 0c12-4 23-2 32 7" stroke="#292733" stroke-width="7" stroke-linecap="round"/>
+  <!-- earring and sweater details -->
+  <circle cx="115" cy="176" r="10" stroke="#9678A8" stroke-width="3"/>
+  <path d="M104 298c15 8 30 12 45 13m91-16c-14 8-28 13-44 15" stroke="#E9D9EF" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+</svg>
