@@ -629,3 +629,45 @@
   .community-post-compose input{min-width:0;flex:1;border:0;outline:0;padding:0 10px;font-size:11px}
   .community-post-compose button{width:36px;border:0;border-radius:8px;background:#896fa0;color:#fff;font-size:17px;cursor:pointer}
 }
+
+/* Mobile home sections stay readable and swipeable at phone widths. */
+@media(max-width:760px){
+  .topbar-home{padding:16px 16px 14px}
+  .content-area{padding:18px 16px 32px}
+  .hero-banner{height:clamp(164px,42vw,188px);min-height:0;margin-bottom:26px;border-radius:16px}
+  .hero-copy{width:58%;padding:clamp(17px,4vw,22px) 14px}
+  .hero-copy h2{font-size:clamp(17px,4.2vw,21px);line-height:1.2}
+  .hero-copy p{font-size:10px;line-height:1.45}
+  .hero-art{width:46%}
+  .hero-friends-image{object-position:center 28%}
+  .section-heading{margin-bottom:12px}
+  .section-heading h2{font-size:16px}
+  .people-grid,.group-grid,.community-grid{display:flex;grid-template-columns:none;gap:10px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;scroll-snap-type:x mandatory;padding:0 0 7px}
+  .people-grid::-webkit-scrollbar,.group-grid::-webkit-scrollbar,.community-grid::-webkit-scrollbar{display:none}
+  .people-grid .person-card{position:relative;display:flex;flex:0 0 214px;align-items:center;gap:10px;width:214px;height:auto;min-height:116px;padding:11px;border:1px solid #e9e3ed;border-radius:15px;box-shadow:0 4px 14px #30234208;text-align:left;scroll-snap-align:start}
+  .people-grid .person-card:last-child{display:flex}
+  .people-grid .person-visual{position:relative;flex:0 0 62px;width:62px;height:62px;border-radius:50%;overflow:hidden;background:#f2edf5!important}
+  .people-grid .person-visual:before,.people-grid .person-visual:after,.people-grid .person-visual .online-pill,.people-grid .person-visual .save-person{display:none}
+  .people-grid .person-visual .person-photo{border-radius:50%;object-fit:cover}
+  .people-grid .person-info{display:flex;min-width:0;flex:1;flex-direction:column;gap:5px;padding:0}
+  .people-grid .person-line{justify-content:space-between;min-height:0;gap:4px}
+  .people-grid .person-line h3{display:block;min-width:0;font-size:11px;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .people-grid .person-line>span{display:block;flex:none;font-size:9px}
+  .people-grid .person-info>p{display:block;min-width:0;margin:0;color:#8f8795;font-size:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .people-grid .person-info .tag-row{display:flex;flex-wrap:nowrap;gap:4px;overflow:hidden}
+  .people-grid .person-info .tag-row span{flex:none;padding:4px 6px;font-size:7px}
+  .people-grid .person-info .connect-button{display:block;height:24px;margin:0;border-radius:7px;font-size:8px}
+  .group-heading,.community-heading{margin-top:23px}
+  .group-grid .group-card{position:relative;display:grid;flex:0 0 140px;grid-template-columns:1fr auto;grid-template-rows:auto 1fr;align-items:start;gap:8px;width:140px;height:108px;padding:12px;border:1px solid #e9e3ed;border-radius:15px;text-align:left;scroll-snap-align:start}
+  .group-grid .group-icon{width:39px;height:39px;border-radius:12px;font-size:21px}
+  .group-grid .group-text{grid-column:1/-1;align-items:flex-start;gap:3px}
+  .group-grid .group-text strong{font-size:10px;line-height:1.2;white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .group-grid .group-text span{display:block;font-size:8px}
+  .group-grid .join-mark{display:block;margin:0;font-size:17px}
+  .community-grid{gap:10px}
+  .community-grid .community-card{position:relative;flex:0 0 218px!important;width:218px;min-width:218px!important;height:96px!important;min-height:96px!important;padding:12px!important;border-radius:15px!important;scroll-snap-align:start}
+  .community-grid .community-logo-wrap,.community-grid .community-mark,.community-grid .community-photo{width:48px!important;height:48px!important;flex-basis:48px!important}
+  .community-grid .community-mark,.community-grid .community-photo{border-radius:12px!important}
+  .community-grid .community-copy strong{font-size:11px!important}
+  .community-grid .community-join{min-height:31px!important;padding:0 10px!important;font-size:9px!important}
+}

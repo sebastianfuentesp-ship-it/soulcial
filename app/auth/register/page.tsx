@@ -54,7 +54,7 @@ export default function Register() {
           </div>
 
           {/* FORMULARIO */}
-          <form className="register-form" onSubmit={(event) => { event.preventDefault(); router.push("/"); }}>
+          <form className="register-form" onSubmit={(event) => { event.preventDefault(); router.push("/inicio"); }}>
 
             <div className="form-row">
 
